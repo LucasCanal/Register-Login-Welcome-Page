@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./img/conecte-se.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/signin.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Login page</title>
+</head>
+<body>
+  <div class="background">
+    <header>
+      <nav>
+           <ul class="menu">
+             <li><a>Home</a></li>
+             <li><a>About us</a></li>
+             <li><a>Services</a></li>
+             <li><a>Contact</a></li>
+           </ul>
+      </nav>
+      <img class="imgHome" src="./img/1846d0d558fac7cbe21144351f7877ef-PhotoRoom.png-PhotoRoom.png" alt="img">
+     </header>
+  </div>
+  <div class="content"></div>
+  <section> 
+    <div class="content">
+      <div class="User-area">
+        <div class="textbox">
+          <h1>Hey, <br> Welcome Back</h1>
+        </div>
+        <div class="textbox-2">
+          <p>We are very happy to see you again!</p>
+        </div>
+        <div id="msgError"></div>
+            <form id="loginBox" class="form">
+               <div class="email-header">
+                <label class="label-input" id="emailLabel" for="email-form">Email</label>
+                <input type="email" id="emailBox" class="email-form" name="emailAdress">
+            </div>
+               <div class="password-header">
+                <label class="label-input" id="passwordLabel" for="password-form">Password</label>
+                <input type="password" id="passwordBox" class="password-form" name="passwordAdress">
+                <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+              <div class="checkbox">
+                <input type="checkbox" id="memberAndcommunity" name="checkbox-2">
+                <label class="label-check" for="memberAndcommunity">Remember Me as <a class="terms" href="">Member</a> of <a class="terms" href="">COMMIT Community.</a></label>
+               </div>
+               <div>
+                <a class="forgotPassword" href="">Forgot password</a>
+               </div>
+            </form>
+               <button type="submit" class="btn-check" onclick="enter()">Login</button>
+               <div class="line">
+                <hr>
+               </div>
+               <div class="social-media">
+                <div class="google-box Flex2">
+                <img class="google-img" src="img/google-icon.webp" alt="google-icon">
+                <p>Login with Google</p>
+               </div>
+               <div class="microsoft-box Flex2">
+                <img class="microsoft-img" src="img/microsoft-icon.png" alt="microsoft-icon">
+                <p>Login with Microsoft</p>
+               </div>
+               </div>
+               <div class="footer">
+                <p>Don't have account? <a class="terms" href="./signup.html">Sign Up here!</a></p>
+               </div>
+          </div>
+          </section>
+          <script src="./js/signin.js"></script>
+          </html>
+</body>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/47a06f850a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="shortcut icon" href="./img/conecte-se.png" type="image/x-icon">
+    <title>Sign up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img class="imgHome" src="./img/3071357.jpg" alt="img">
+            <div id="msgSucess">Registration completed ✔️</div>
+        <form id="form" class="form">
+            <div class="input-field">
+                <i class="fa-solid fa-user"></i>
+                <input name="name" class="" placeholder="Full Name">
+                <p class="error error-hidden">Type your name.</p>          
+            </div>
+            <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <p class="error error-hidden">Please provide a valid email address.</p>  
+            </div> 
+            <div class="input-field">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" name="password" id="password" placeholder="Password">
+                <p class="error error-hidden">Type your password.</p>  
+            </div>
+
+            <div class="input-field">
+                <i class="fa-solid fa-check"></i>
+                <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+                <p class="error error-hidden">Passwords must be identical.</p>  
+            </div>
+            <div class="justify-center">
+                <button class="btn-register" type="submit">Register</button>
+            </div>
+        </form>
+            <div class="justify-center">
+                <a href="./signin.html"><button class="btn-account">Have account? Sign in</button></a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/signup.js"></script>
+    
+</body>
+</html>
